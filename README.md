@@ -15,7 +15,15 @@ Using the slicing concept rotate the list
 ### Step 5: 
 ### Step 6: 
 ## Program:
-
+```
+def circulate(): 
+    num1=[10,20,30,40,50,60]
+    n=int(input())
+    num1=num1[n:]+num1[:n]
+    print("After circulating the values are:",num1)
+```
 ## Output:
+![git log](vetri5.png)
 
 ## Result:
+Thus circulate the values  of N variables is executed
